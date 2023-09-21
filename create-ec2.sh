@@ -3,6 +3,8 @@ NAMES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping"
 INSTANCE_TYPE=""
 IMAGE_ID=ami-03265a0778a880afb
 SECURITY_GROUP_ID=sg-09c2d90d63e302c4e
+DOMAIN_NAME=projectdevops.online
+
 
 
 

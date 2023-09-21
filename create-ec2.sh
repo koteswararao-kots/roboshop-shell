@@ -1,3 +1,5 @@
+#!/bin/bash
+
 NAMES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "web")
 
 INSTANCE_TYPE=""

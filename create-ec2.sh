@@ -7,9 +7,9 @@ SECURITY_GROUP_ID=sg-09c2d90d63e302c4e
 
 
 
-for i in "${Names[@]}"
+for i in "${NAMES[@]}"
 do 
-    if [[ $i == "mongodb" || $i == "mysql"]]
+    if [[$i == "mongodb" || $i == "mysql"]]
     then 
         INSTANCE_TYPE="t3.medium"
     else 
